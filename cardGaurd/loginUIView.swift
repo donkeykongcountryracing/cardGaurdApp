@@ -10,9 +10,12 @@ import SwiftUI
 struct loginUIView: View {
     var body: some View {
         VStack{
+            ZStack{
             Image("login")
                 .resizable()
                 .frame(width: 430, height: 910)
+            Image("Card")
+            }
         }
     }
 }

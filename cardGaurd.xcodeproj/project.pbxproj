@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D21A7E89282C9B0600DE3EA5 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21A7E88282C9B0600DE3EA5 /* homeView.swift */; };
+		D21A7E8B282D3B2200DE3EA5 /* loginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21A7E8A282D3B2200DE3EA5 /* loginUIView.swift */; };
+		D21A7E8D282D3BC500DE3EA5 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21A7E8C282D3BC500DE3EA5 /* global.swift */; };
 		D2D75454282C8D1F00656C9F /* cardGaurdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D75453282C8D1F00656C9F /* cardGaurdApp.swift */; };
 		D2D75456282C8D1F00656C9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D75455282C8D1F00656C9F /* ContentView.swift */; };
 		D2D75458282C8D2100656C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D75457282C8D2100656C9F /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		D21A7E88282C9B0600DE3EA5 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		D21A7E8A282D3B2200DE3EA5 /* loginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUIView.swift; sourceTree = "<group>"; };
+		D21A7E8C282D3BC500DE3EA5 /* global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
 		D2D75450282C8D1F00656C9F /* cardGaurd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardGaurd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D75453282C8D1F00656C9F /* cardGaurdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardGaurdApp.swift; sourceTree = "<group>"; };
 		D2D75455282C8D1F00656C9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			children = (
 				D2D75453282C8D1F00656C9F /* cardGaurdApp.swift */,
 				D2D75455282C8D1F00656C9F /* ContentView.swift */,
+				D21A7E8A282D3B2200DE3EA5 /* loginUIView.swift */,
 				D21A7E88282C9B0600DE3EA5 /* homeView.swift */,
+				D21A7E8C282D3BC500DE3EA5 /* global.swift */,
 				D2D75457282C8D2100656C9F /* Assets.xcassets */,
 				D2D75459282C8D2100656C9F /* Preview Content */,
 			);
@@ -142,7 +148,9 @@
 			files = (
 				D2D75456282C8D1F00656C9F /* ContentView.swift in Sources */,
 				D2D75454282C8D1F00656C9F /* cardGaurdApp.swift in Sources */,
+				D21A7E8B282D3B2200DE3EA5 /* loginUIView.swift in Sources */,
 				D21A7E89282C9B0600DE3EA5 /* homeView.swift in Sources */,
+				D21A7E8D282D3BC500DE3EA5 /* global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

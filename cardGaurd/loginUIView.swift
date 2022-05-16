@@ -15,6 +15,8 @@ struct loginUIView: View {
                 .resizable()
                 .frame(width: 430, height: 910)
             Image("Card")
+                .resizable()
+                .frame(width: 300, height: 300)
             }
         }
     }

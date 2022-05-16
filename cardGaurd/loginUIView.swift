@@ -8,17 +8,24 @@
 import SwiftUI
 
 struct loginUIView: View {
+    
+    
     var body: some View {
+        HStack{
+            Spacer()
         VStack{
-            ZStack{
-            Image("login")
-                .resizable()
-                .frame(width: 430, height: 910)
+            Spacer()
+                .frame(height: 100)
             Image("Card")
                 .resizable()
                 .frame(width: 300, height: 300)
-            }
+            Spacer()
         }
+            Spacer()
+        }
+        .background(Image("login")
+            .resizable())
+        .edgesIgnoringSafeArea(.all)
     }
 }
 

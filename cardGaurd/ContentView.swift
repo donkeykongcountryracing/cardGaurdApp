@@ -9,11 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-        
-        Text("Hello earth")
-        Text("")
+            ScrollView {
+                
+            }
+            .background(Color.background)
+            .toolbar {
+                
+            }
+
     }
 }
 

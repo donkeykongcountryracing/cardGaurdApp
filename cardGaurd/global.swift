@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct profile: Decodable{
     var username: String
@@ -32,4 +33,8 @@ struct subscriptions: Decodable{
     var image: String
     var monthsActive: Int
     var pricePerMonth: Int
+}
+
+extension Color  {
+    static let background = Color("background")
 }
